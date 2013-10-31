@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\zaozhuang.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\zaozhuang.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="5.png">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="3.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="help.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="link.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="medie.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="山雾.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="MaskKey.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="潍坊背景图.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="2_副本.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="123.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="4_24_15_59.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="zaozhuang.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zaozhuangDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CButtonST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TIANJIA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PROP1_1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop1_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop1_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropSheet1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropSheet0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop0_1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop0_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop0_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Prop0_4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page12.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShutDown.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkStyle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MaskKey.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Xiugai.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetIP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PWD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetPwd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="zaozhuang.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zaozhuangDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CButtonST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TIANJIA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PROP1_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop1_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop1_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropSheet1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropSheet0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop0_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop0_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop0_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prop0_4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page9.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page10.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page12.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShutDown.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkStyle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Xiugai.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetIP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PWD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SetPwd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="zaozhuang.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="MaskKey.lib" />
+  </ItemGroup>
+</Project>

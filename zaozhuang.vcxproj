@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{18CC7AD6-1347-49F5-A46F-60C8C3DFABC2}</ProjectGuid>
+    <RootNamespace>zaozhuang</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <ProjectName>term-mng</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>终端管理软件</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>终端管理软件</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="123.bmp" />
+    <None Include="2.bmp" />
+    <None Include="2_副本.bmp" />
+    <None Include="3.bmp" />
+    <None Include="3.ico" />
+    <None Include="4_24_15_59.bmp" />
+    <None Include="5.png" />
+    <None Include="help.ico" />
+    <None Include="link.ico" />
+    <None Include="MaskKey.def" />
+    <None Include="medie.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\toolbar1.bmp" />
+    <None Include="res\zaozhuang.ico" />
+    <None Include="res\zaozhuang.rc2" />
+    <None Include="山雾.bmp" />
+    <None Include="潍坊背景图.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CButtonST.h" />
+    <ClInclude Include="LinkStyle.h" />
+    <ClInclude Include="MainDialog.h" />
+    <ClInclude Include="MaskKey.h" />
+    <ClInclude Include="Page1.h" />
+    <ClInclude Include="Page10.h" />
+    <ClInclude Include="Page11.h" />
+    <ClInclude Include="Page12.h" />
+    <ClInclude Include="Page2.h" />
+    <ClInclude Include="Page3.h" />
+    <ClInclude Include="Page4.h" />
+    <ClInclude Include="Page5.h" />
+    <ClInclude Include="Page6.h" />
+    <ClInclude Include="Page7.h" />
+    <ClInclude Include="Page8.h" />
+    <ClInclude Include="Page9.h" />
+    <ClInclude Include="Prop0_1.h" />
+    <ClInclude Include="Prop0_2.h" />
+    <ClInclude Include="Prop0_3.h" />
+    <ClInclude Include="Prop0_4.h" />
+    <ClInclude Include="PROP1_1.h" />
+    <ClInclude Include="Prop1_2.h" />
+    <ClInclude Include="Prop1_3.h" />
+    <ClInclude Include="PropSheet0.h" />
+    <ClInclude Include="PropSheet1.h" />
+    <ClInclude Include="PWD.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SetIP.h" />
+    <ClInclude Include="SetPwd.h" />
+    <ClInclude Include="ShutDown.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SystemSet.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TIANJIA.h" />
+    <ClInclude Include="Xiugai.h" />
+    <ClInclude Include="zaozhuang.h" />
+    <ClInclude Include="zaozhuangDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CButtonST.cpp" />
+    <ClCompile Include="LinkStyle.cpp" />
+    <ClCompile Include="MainDialog.cpp" />
+    <ClCompile Include="Page1.cpp" />
+    <ClCompile Include="Page10.cpp" />
+    <ClCompile Include="Page11.cpp" />
+    <ClCompile Include="Page12.cpp" />
+    <ClCompile Include="Page2.cpp" />
+    <ClCompile Include="Page3.cpp" />
+    <ClCompile Include="Page4.cpp" />
+    <ClCompile Include="Page5.cpp" />
+    <ClCompile Include="Page6.cpp" />
+    <ClCompile Include="Page7.cpp" />
+    <ClCompile Include="Page8.cpp" />
+    <ClCompile Include="Page9.cpp" />
+    <ClCompile Include="Prop0_1.cpp" />
+    <ClCompile Include="Prop0_2.cpp" />
+    <ClCompile Include="Prop0_3.cpp" />
+    <ClCompile Include="Prop0_4.cpp" />
+    <ClCompile Include="PROP1_1.cpp" />
+    <ClCompile Include="Prop1_2.cpp" />
+    <ClCompile Include="Prop1_3.cpp" />
+    <ClCompile Include="PropSheet0.cpp" />
+    <ClCompile Include="PropSheet1.cpp" />
+    <ClCompile Include="PWD.cpp" />
+    <ClCompile Include="SetIP.cpp" />
+    <ClCompile Include="SetPwd.cpp" />
+    <ClCompile Include="ShutDown.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SystemSet.cpp" />
+    <ClCompile Include="TIANJIA.cpp" />
+    <ClCompile Include="Xiugai.cpp" />
+    <ClCompile Include="zaozhuang.cpp" />
+    <ClCompile Include="zaozhuangDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="zaozhuang.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="MaskKey.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="zaozhuang.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
